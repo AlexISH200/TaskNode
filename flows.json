@@ -1,1 +1,37 @@
-[]
+[
+    {
+        "id": "c348f02a34679924",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "25ac91f4b6142a17",
+        "type": "inject",
+        "z": "c348f02a34679924",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 700,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    }
+]
